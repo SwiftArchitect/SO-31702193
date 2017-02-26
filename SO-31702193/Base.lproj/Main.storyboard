@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SO_31702193" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ksj-ID-Hak" customClass="ColorSwatchView" customModule="SO_31702193">
+                                <rect key="frame" x="16" y="167" width="343" height="333.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tn-tX-31z" userLabel="name">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="333.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="84"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4Tn-tX-31z" firstAttribute="top" secondItem="Ksj-ID-Hak" secondAttribute="top" id="Cxv-hY-PSn"/>
+                                    <constraint firstAttribute="bottom" secondItem="4Tn-tX-31z" secondAttribute="bottom" id="YKf-XM-qL3"/>
+                                    <constraint firstItem="4Tn-tX-31z" firstAttribute="leading" secondItem="Ksj-ID-Hak" secondAttribute="leading" id="axx-HN-zJe"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Tn-tX-31z" secondAttribute="trailing" id="dhz-nK-ThZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="tinctureName" value="plum"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ksj-ID-Hak" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8p2-Ub-4Rh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ksj-ID-Hak" secondAttribute="leading" id="XjQ-Tb-GXv"/>
+                            <constraint firstItem="Ksj-ID-Hak" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="ilu-0P-hWa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ksj-ID-Hak" secondAttribute="trailing" id="xdT-yp-EJa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorSwatch" destination="Ksj-ID-Hak" id="Oie-Kv-59B"/>
+                        <outlet property="label" destination="4Tn-tX-31z" id="CzP-ja-uIu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="423" y="301"/>
+        </scene>
+    </scenes>
+</document>
