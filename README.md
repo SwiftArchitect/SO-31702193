@@ -1,9 +1,12 @@
 # Add a custom palette to Xcode Interface Builder that propagates if a color changes on iOS
 
+![preview](https://i.stack.imgur.com/rOCAG.png)
+
 ---
 
 ### Stack Overflow Question 31702193
-Xcode project & source code related to [Add a custom palette to IB that propagates if a color changes iOS](http://stackoverflow.com/a/32536485/218152) anwser.
+
+Xcode project & source code related to [Add a custom palette to IB that propagates if a color changes iOS](https://stackoverflow.com/questions/31702193/add-a-custom-palette-to-ib-that-propagates-if-a-color-changes-ios/32536485#32536485) answer.
 
 ---
 
@@ -15,6 +18,6 @@ Xcode project & source code related to [Add a custom palette to IB that propagat
 
 **References:**
 
- - SO-31702193 on [Stack Overflow](http://stackoverflow.com/questions/31702193/add-a-custom-palette-to-ib-that-propagates-if-a-color-changes-ios)
+ - Question [31702193](https://stackoverflow.com/questions/31702193) on Stack Overflow
  - This and other answers posted on [Swift Recipes](http://swiftarchitect.com/recipes/)
 
